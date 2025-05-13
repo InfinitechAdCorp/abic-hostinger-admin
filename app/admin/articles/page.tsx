@@ -128,7 +128,7 @@ export default function Property() {
         row.image ? (
           row.image.includes("mp4") ? (
             <video
-              src={`https://abic-agent-bakit.s3.ap-southeast-1.amazonaws.com/articles/${row.image}`}
+              src={`https://abicmanpowerservicecorp.com/articles/${row.image}`}
               className="h-24 w-24 object-fit"
               controls
               poster="/image/play-button.png"
@@ -137,12 +137,12 @@ export default function Property() {
             <a
               data-lightbox="gallery"
               data-title={row.title}
-              href={`https://abic-agent-bakit.s3.ap-southeast-1.amazonaws.com/articles/${row.image}`}
+              href={`https://abicmanpowerservicecorp.com/articles/${row.image}`}
             >
               <img
                 alt={row.title}
                 className="h-24 w-24 object-cover"
-                src={`https://abic-agent-bakit.s3.ap-southeast-1.amazonaws.com/articles/${row.image}`}
+                src={`https://abicmanpowerservicecorp.com/articles/${row.image}`}
               />
             </a>
           )

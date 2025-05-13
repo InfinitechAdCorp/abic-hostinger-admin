@@ -31,7 +31,7 @@ export const Email = ({
       <Container style={container}>
         <Section style={box}>
           <Img
-            src="https://abic-agent-bakit.s3.ap-southeast-1.amazonaws.com/media/ABIC+Realty.png"
+            src="https://abicmanpowerservicecorp.com/media/ABIC+Realty.png"
             height="80"
             alt="Abic Realty Corp"
           />

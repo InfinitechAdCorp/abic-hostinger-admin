@@ -45,12 +45,12 @@ const columns: Column<CareerWithActions>[] = [
       <a
         data-lightbox="gallery"
         data-title={row.position}
-        href={`https://abic-agent-bakit.s3.ap-southeast-1.amazonaws.com/careers/images/${row.image}`}
+        href={`https://abicmanpowerservicecorp.com/careers/images/${row.image}`}
       >
         <img
           alt={row.position}
           className="h-24 w-24 object-cover"
-          src={`https://abic-agent-bakit.s3.ap-southeast-1.amazonaws.com/careers/images/${row.image}`}
+          src={`https://abicmanpowerservicecorp.com/careers/images/${row.image}`}
         />
       </a>
     ),

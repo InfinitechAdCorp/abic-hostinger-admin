@@ -86,7 +86,7 @@ export default function Settings() {
             <div className="flex items-center gap-4">
               <img
                 className="w-20 h-20 rounded-full object-cover"
-                src={`https://abic-agent-bakit.s3.ap-southeast-1.amazonaws.com/profiles/${avatar}`}
+                src={`https://abicmanpowerservicecorp.com/profiles/${avatar}`}
               />
               <div>
                 <h1 className="font-semibold text-xl">{user.name}</h1>

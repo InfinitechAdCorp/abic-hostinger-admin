@@ -77,7 +77,7 @@ export default function LoginPage() {
           <div className="py-4">
             <Image
               alt="HeroUI hero Image"
-              src="https://abic-agent-bakit.s3.ap-southeast-1.amazonaws.com/media/ABIC+Realty.png"
+              src="https://abicmanpowerservicecorp.com/media/ABIC+Realty.png"
               width={150}
             />
           </div>

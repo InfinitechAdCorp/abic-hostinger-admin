@@ -21,7 +21,7 @@ interface EditModalProps {
 }
 
 const EditModal: React.FC<EditModalProps> = ({ career, isOpen, onClose, mutate }) => {
-    const [imagePreview, setImagePreview] = useState<string | null>(`https://abic-agent-bakit.s3.ap-southeast-1.amazonaws.com/careers/images/${career?.image}` || null);
+    const [imagePreview, setImagePreview] = useState<string | null>(`https://abicmanpowerservicecorp.com/careers/images/${career?.image}` || null);
 
     const handleSubmit = async (values: any, { setSubmitting }: any) => {
         try {

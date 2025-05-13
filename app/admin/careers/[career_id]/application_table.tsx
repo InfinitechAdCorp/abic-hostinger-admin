@@ -32,7 +32,7 @@ const columns: Column<Application>[] = [
                 <div className="flex gap-4 justify-center">
                     <button
                         onClick={() => {
-                            const fileUrl = `https://abic-agent-bakit.s3.ap-southeast-1.amazonaws.com/careers/applications/${application.resume}`;
+                            const fileUrl = `https://abicmanpowerservicecorp.com/careers/applications/${application.resume}`;
 
                             // Generate filename in the format: first_name_last_name_resume
                             const fileName = `${application.first_name.toLowerCase()}_${application.last_name.toLowerCase()}_resume`;

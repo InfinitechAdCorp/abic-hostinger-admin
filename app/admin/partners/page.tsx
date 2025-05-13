@@ -26,12 +26,12 @@ const columns: Column<Partner>[] = [
             <a
                 data-lightbox="gallery"
                 data-title={row.name}
-                href={`https://abic-agent-bakit.s3.ap-southeast-1.amazonaws.com/partners/${row.image}`}
+                href={`https://abicmanpowerservicecorp.com/partners/${row.image}`}
             >
                 <img
                     alt={row.name}
                     className="h-24 w-24 object-cover"
-                    src={`https://abic-agent-bakit.s3.ap-southeast-1.amazonaws.com/partners/${row.image}`}
+                    src={`https://abicmanpowerservicecorp.com/partners/${row.image}`}
                 />
             </a>
         ),

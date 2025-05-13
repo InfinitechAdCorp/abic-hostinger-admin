@@ -33,7 +33,7 @@ const columns: Column<Certificate>[] = [
     label: "Logo",
     render: (certificate) => (
       <img
-        src={`https://abic-agent-bakit.s3.ap-southeast-1.amazonaws.com/certificates/${certificate.image}`}
+        src={`https://abicmanpowerservicecorp.com/certificates/${certificate.image}`}
         alt={certificate.image}
         className="h-12 w-12 object-contain"
       />

@@ -22,7 +22,7 @@ interface EditCertificateModalProps {
 }
 
 const EditCertificateModal: React.FC<EditCertificateModalProps> = ({ certificate, isOpen, onClose, mutate }) => {
-    const [imagePreview, setImagePreview] = useState<string | null>(`https://abic-agent-bakit.s3.ap-southeast-1.amazonaws.com/certificates/${certificate?.image}` || null);
+    const [imagePreview, setImagePreview] = useState<string | null>(`https://abicmanpowerservicecorp.com/certificates/${certificate?.image}` || null);
     const handleSubmit = async (values: any, { setSubmitting }: any) => {
         console.log(values);
 
